@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+
+	}
+
+#pontos{
+
+		position: absolute;
+		width: 100px;
+		height: 50px;
+		border-style: solid;
+		border-color: #000000;
+		border-width: 2px;
+		padding: 5px;
+		left: 0px;
+		}
+#score{
+
+		font-weight:  bold;
+		color: #ff0000;
+}
+
+#conteudo{
+
+		position: absolute;
+		width: 200px;
+		height: 400px;
+		background-color: #000000;
+		top: 50px;
+		left: 0px;
+}
+
+button{
+		position: absolute;
+}
+
+.pixel{
+		width: 20px;
+		height: 20px;
+		background-color:  #ff0000;
+		position: absolute;
+}
