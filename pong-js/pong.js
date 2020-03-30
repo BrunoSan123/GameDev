@@ -73,23 +73,6 @@ function loop(){
 		initball()
 	}
 
-	if(p1_key == 87 && p1_y > 0){
-
-		p1_y -=10
-	}else if(p1_key == 83 && p1_y+p_h < h){
-
-		p1_y +=10
-	}
-
-
-	if(p1_key == 38 && p1_y > 0){
-
-		p1_y -=10
-	}else if(p1_key == 40 && p1_y+p_h < h){
-
-		p1_y +=10
-	}
-
   draw()
 
 }
